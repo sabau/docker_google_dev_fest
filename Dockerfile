@@ -1,5 +1,5 @@
 # starting from image:tag
-FROM alpine:3.5
+FROM alpine:3.7
 
 # launch commands, add py2-pip
 RUN apk add --update py2-pip

@@ -12,4 +12,4 @@ COPY app.py /usr/src/app
 COPY templates/index.html /usr/src/app/templates/index.html
 
 EXPOSE 5000
-CMD ['python', '/usr/src/app/app.oy']
+CMD ['python', '/usr/src/app/app.py']
